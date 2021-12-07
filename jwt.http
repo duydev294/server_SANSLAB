@@ -1,0 +1,17 @@
+GET http://localhost:3000/api/user/login
+
+
+
+###
+GET http://localhost:3000/api/user/get_user
+
+###
+POST http://localhost:3000/api/user/register
+
+{
+    "name":"duy",
+    "email":"duy123@gmail.com",
+    "account":"duyvippro09",
+    "password":"123456"
+    
+}
